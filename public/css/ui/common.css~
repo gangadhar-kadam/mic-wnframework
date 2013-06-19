@@ -1,0 +1,130 @@
+a {
+	cursor: pointer;
+}
+
+.navbar-icon-home {
+	vertical-align: middle;
+	opacity: 0.4;
+	Filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.navbar-icon-home:hover,
+.navbar-icon-home:focus,
+.navbar-icon-home:active,
+.navbar-icon-home-hover{
+	opacity:1;
+	Filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.navbar .brand {
+	max-height: 15px;
+}
+
+.navbar #spinner {
+	display: block;
+	float: right;
+	width: 20px;
+	margin-bottom: -5px;
+	margin-top: 10px;
+	/*visibility: hidden;*/
+}
+
+/* alert */
+
+
+#alert-container {
+	position: fixed; 
+	bottom: 8px; 
+	right: 8px;
+	z-index: 10;
+}
+
+#alert-container .alert {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+		overflow: hidden;
+		max-width: 400px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+}
+
+/* avatar */
+
+.avatar {
+	display: inline-block; 
+	vertical-align: middle;
+	overflow: hidden;
+	background-color: #ddd;
+	border: 1px solid #eee;
+}
+
+.avatar-small {
+	margin-right: 5px;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+.avatar-small img {
+	width: 30px; 
+}
+
+.avatar-large {
+	margin-right: 10px;
+	width: 72px;
+	height: 72px;
+	border-radius: 72px;
+	-moz-border-radius: 72px;
+	-webkit-border-radius: 72px;
+}
+.avatar-large img {
+	width: 72px; 
+}
+
+/* slickgrid */
+
+..slick-cell { 
+	font-size: 12px; 
+}
+
+.slick-headerrow-column {
+	background: #87ceeb;
+	text-overflow: clip;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.slick-headerrow-column input {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.missing-image {
+	background-color: #eee;
+	padding: 40px;
+	width: 32px;
+	font-size: 32px;
+	color: #888;
+}
+
+.wysiwyg-editor {
+	height: 400px;
+	background-color: white;
+	border-collapse: separate; 
+	border: 1px solid rgb(204, 204, 204); 
+	padding: 4px; 
+	box-sizing: content-box; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset; 
+	box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+	border-top-right-radius: 3px; border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px; border-top-left-radius: 3px;
+	overflow: scroll;
+	outline: none;	
+}

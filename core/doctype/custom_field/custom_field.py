@@ -22,7 +22,7 @@
 
 from __future__ import unicode_literals
 import webnotes
-
+msgprint = webnotes.msgprint
 from webnotes.utils import cint, cstr
 
 class DocType:
@@ -78,6 +78,7 @@ class DocType:
 		if label_index==-1: return
 
 		prev_field = field_list[label_index]
+		msgprint(prev_field)
 		webnotes.conn.sql("""\
 			DELETE FROM `tabProperty Setter`
 			WHERE doc_type = %s
